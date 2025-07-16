@@ -4,7 +4,7 @@ display_menu() {
     echo "Pilih versi Windows Server yang ingin Anda siapkan:"
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
-    echo "3. Windows 10 Ghost"
+    echo "3. Windows 11 Ghost"
 	echo "4. Windows 10 Ghost"
     read -p "Masukkan pilihan Anda (1-4): " choice
 }
@@ -36,9 +36,9 @@ case $choice in
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US"
         ;;
     3)
-        img_file="WIN10Ghost.img"
-        iso_file="WIN10Ghost.iso"
-        iso_link="http://veloww.id/WIN10Ghost.iso"
+        img_file="WIN11GHOST.img"
+        iso_file="WIN11GHOST.iso"
+        iso_link="http://veloww.id/WIN11GHOST.iso"
         ;;
 	4)
         img_file="WIN10Ghost.img"

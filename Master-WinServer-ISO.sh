@@ -36,9 +36,9 @@ case $choice in
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US"
         ;;
     3)
-        img_file="WIN11GHOST.img"
-        iso_file="WIN11GHOST.iso"
-        iso_link="http://veloww.id/WIN11GHOST.iso"
+        img_file="windows11.img"
+        iso_file="windows11.iso"
+        iso_link="http://veloww.id/windows11.iso"
         ;;
 	4)
         img_file="WIN10Ghost.img"

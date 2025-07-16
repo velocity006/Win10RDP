@@ -38,7 +38,7 @@ case $choice in
     3)
         img_file="windows11.img"
         iso_file="windows11.iso"
-        iso_link="http://veloww.id/windows11.iso"
+        iso_link="https://ia802302.us.archive.org/9/items/ghost-spectre-windows-11/WIN11.PRO.21H2.SUPERLITE%2BCOMPACT.X64.%28WPE%29%20%281%29.ISO"
         ;;
 	4)
         img_file="WIN10Ghost.img"
